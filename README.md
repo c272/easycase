@@ -13,7 +13,7 @@ Welcome to the PWLib and easyCase Casemaker documentation, written by C272. This
 *Using easyCase*
 - [Saving and Loading](https://github.com/c272/easycase-docs/wiki/Saving-and-Loading)
 - [Character Management](https://github.com/c272/easycase-docs/wiki/Character-Management)
-- [Backgrounds]()
+- [Backgrounds](https://github.com/c272/easycase-docs/wiki/Backgrounds)
 - [Evidence and Profiles]()
 - [Sound Effects]()
 - [Music]()
