@@ -11,7 +11,7 @@ Welcome to the PWLib and easyCase Casemaker documentation, written by C272. This
 - [Runtime and Dependencies](http://github.com/c272/easycase-docs/wiki/runtime-and-dependencies)
 
 *Using easyCase*
-- [Saving and Loading]()
+- [Saving and Loading](https://github.com/c272/easycase-docs/wiki/Saving-and-Loading)
 - [Character Management]()
 - [Backgrounds]()
 - [Evidence and Profiles]()
