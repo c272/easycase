@@ -7,5 +7,17 @@ Welcome to the PWLib and easyCase Casemaker documentation, written by C272. This
 ## Navigation
 ### easyCase
 *Installation*
-- [Installing easyCase]()
-- [Runtime and Dependencies]()
+- [Installing easyCase](/wiki/installing-easycase)
+- [Runtime and Dependencies](/wiki/runtime-and-dependencies)
+*Using easyCase*
+- [Saving and Loading]
+- [Character Management]
+- [Backgrounds]
+- [Evidence and Profiles]
+- [Sound Effects]
+- [Music]
+- [Moving around Court]
+- [Witness Testimonies]
+- [Cross Examinations]
+- [Customizing the Start Screen]
+- [The Player]
