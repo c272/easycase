@@ -9,6 +9,7 @@ Welcome to the PWLib and easyCase Casemaker documentation, written by C272. This
 *Installation*
 - [Installing easyCase](/wiki/installing-easycase)
 - [Runtime and Dependencies](/wiki/runtime-and-dependencies)
+
 *Using easyCase*
 - [Saving and Loading]()
 - [Character Management]()
