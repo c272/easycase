@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"></script>
+<style>
+.borderleft {
+margin-left: 10px;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="borderleft">
+<h1><strong>easyCase Updates</strong></h1>
+<hr />
+<h2>v0.2.4</h2>
+<p>This is the fifth pre-release build for easyCase Casemaker, and is more of a cosmetic and bugfixing update. Many of the bugs present in 0.2.3 were patched out, and a new update notification system has been rolled in alongside some compatibility DLLs for further down the line. The potential for a Linux port is also there, which is something i'm keeping in the back of my mind for now. The new easyCase website's also up at <a href="http://easycase.me,">http://easycase.me,</a>&nbsp;and the icon/logo has changed. Here's the full changelog:</p>
+<ul>
+<li>You can now add <strong>pauses</strong> within your case!</li>
+<li>An <strong>update notification tool</strong> is now bundled with easyCase, which should make it easier to push out updates.</li>
+<li>The <strong>easyCase website</strong> is now up for beta members, at&nbsp;<a class="postlink" href="http://easycase.me/">http://easycase.me</a></li>
+<li>Added an <strong>"About" tab</strong> to the main easyCase window.</li>
+<li><strong>Changed the logo/icon</strong> to a more updated version.</li>
+<li>Fixed the "HOLD IT!" bubble having an extended delay.</li>
+<li>Un-broke the run function, after folderLocation was accidentally reset after when running in 0.2.3.</li>
+<li>Fixed an error with the witness character statement not including a "\n".</li>
+<li>Fixed testimonies getting stuck after start.</li>
+<li>Fixed an error with the testimony engage statement not including a "\n".</li>
+<li>Stopped the message box appearing during testimony popup.</li>
+<li>Fixed an issue with the gavel being hid underneath the message box.</li>
+<li>Fixed a specific use case where the gavel became stuck on screen.</li>
+<li>Removed the placeholder text in "End Testimony".</li>
+<li>Stopped an invalid court slide case from occurring.</li>
+<li>Added a "currentCharacter" global for easy access.</li>
+<li>Fixed that when opening a new window, not all critical variables would be reset.</li>
+<li>Prevented a corrupted config.ezc being made when invalid characters were input into easyCase.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is a limited version of the software, and not really fit for release, rather testing. Well, that's all folks. I'll be updating the software as it moves along, and adding test editions. For now, adieu.</p>
+<p><strong>When you've used the program sufficiently, please submit feedback via. the below URL.<br /><a href="https://goo.gl/forms/bgdQpwvzCyfZ4dj42" target="_blank" rel="noopener">Feedback!</a></strong></p>
+<p>&nbsp;</p>
+<h2>v0.2.3</h2>
+<p>This is the fourth pre-release build for easyCase Casemaker, and brings in a number of new features for in-court events. You can now perform witness testimonies, slam the gavel, and switch between different areas of the court with smooth sliding transitions. The update now introduces the final 41 characters from the trilogy, and adds 350 new poses! Here's a full list of the changes:</p>
+<p><strong>Patch Notes:</strong></p>
+<ul>
+<li>Added <strong>41 new characters</strong> to the editor, completing the trilogy set.</li>
+<li><strong>~350 new poses added</strong> to easyCase's pose editor, for existing and old characters.</li>
+<li>Added ability to <strong>start and end court scene</strong>s.</li>
+<li>Added in the <strong>witness stand, defense stand, prosecutor's stand, cocouncil stand and judge table.</strong></li>
+<li>Added the ability to throw down the gavel.</li>
+<li><strong>Implemented witness testimony,</strong> in an early state.<br /><em>This function might not work as intended for now, so be careful when using this in your cases.</em></li>
+<li>Fixed "courtroomHall" background failing to initialise properly.</li>
+<li>Fixed that saving for the first time doesn't notify the user that it may take a long time.</li>
+<li>Fixed that stands wouldn't appear in front of characters for in-court sprites.</li>
+<li>Changed the "judgestand" background from Gant's Room.</li>
+<li>Made it so that in-court poses are no longer available when not in court.</li>
+<li>Fixed more spelling mistakes in the PWLib core engine.</li>
+<li>Made the PWLib core engine features more consistent.</li>
+<li>Fixed that creating a new window would not reset the undo loop.</li>
+<li>Refactored the save function.</li>
+<li>Fixed compatibilities with newer PWLib 1.1+ scripts.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is a limited version of the software, and not really fit for release, rather testing. Well, that's all folks. I'll be updating the software as it moves along, and adding test editions. For now, adieu.</p>
+<p><strong>When you've used the program sufficiently, please submit feedback via. the below URL.<br /><a href="https://goo.gl/forms/bgdQpwvzCyfZ4dj42" target="_blank" rel="noopener">Feedback!</a></strong></p>
+<p>&nbsp;</p>
+<h2>Hotfix v0.2.2b</h2>
+<p>This is the fourth pre-release build for easyCase Casemaker, and is a small patch for the update that went live yesterday. The update broke a number of features within the program, so has been rescinded, and this hotfix is now live instead. This hotfix changes the following patch notes.</p>
+<p><strong>Patch Notes:</strong></p>
+<ul>
+<li>Fixed a bug when running cases from within easyCase, having the .LNK file point to an invalid directory every time.</li>
+<li>Fixed inconsistencies in the PWLib engine processing which was preventing backgrounds from loading properly.</li>
+<li>Removed some characters for further optimization and code analysis, as their scripts seem to break some in-engine features of AIGE. These will be readded at a later date.</li>
+<li>Revised the version of easyPWLib used for the update, as the incorrect one was copied previously.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is a limited version of the software, and not really fit for release, rather testing. Well, that's all folks. I'll be updating the software as it moves along, and adding test editions. For now, adieu.</p>
+<p><strong>When you've used the program sufficiently, please submit feedback via. the below URL.<br /><a href="https://goo.gl/forms/bgdQpwvzCyfZ4dj42" target="_blank" rel="noopener">Feedback!</a></strong></p>
+<p>&nbsp;</p>
+<h2>v0.2.2</h2>
+<p>This is the third pre-release build for easyCase Casemaker, and will be released as the beta version for public testing. This release brings about a ton of new features, as well as reinstating nearly all poses, characters and backgrounds from the trilogy. Downloads will be hosted through several mirrors, available through the developer. If any link goes down, please contact <a href="mailto:c272github@gmail.com">c272github@gmail.com</a>.</p>
+<p><strong>Patch Notes:</strong></p>
+<ul>
+<li>An&nbsp;<strong>Undo function</strong>&nbsp;has now been added to easyCase! This allows you to revert mistakes while within the casemaker.</li>
+<li><strong>All default trilogy characters</strong>&nbsp;are now available in easyCase, allowing you to add dialogue between characters from across the trilogy.</li>
+<li>You can now&nbsp;<strong>pose characters</strong>, with nearly <strong>3</strong><strong>00 poses added.</strong></li>
+<li>You can now use&nbsp;<strong>every background from the trilogy,</strong>&nbsp;with a GUI selector.</li>
+<li><strong>Fully custom evidence</strong>&nbsp;can now be added, replacing the old limited function.</li>
+<li>You can now&nbsp;<strong>launch cases from within easyCase</strong>, by clicking on the "Run Case" button in the new "Run" tab.</li>
+<li>The&nbsp;<strong>name of the player</strong>&nbsp;can now be changed from within the "Game Properties" tab.</li>
+<li>The&nbsp;<strong>RAM usage</strong>&nbsp;of the program has been decreased. Users should see a decrease in 20-30MB of used RAM when running the program.</li>
+<li><strong>Custom profiles</strong>&nbsp;can now be added to the Court Record.</li>
+<li>Fixed spelling mistakes in the core PWLib engine (mostly character functions).</li>
+<li>Fixed a bug which prevented .MP3 files from being played due to incorrect formatting in PWLib scripts.</li>
+<li>Fixed a bug with the "Undo" system which allowed the program to incorrectly remove the start of the script.</li>
+<li>Fixed a bug on the "Evidence Present" screen which would prevent users from progressing.</li>
+<li>Fixed a saving bug which could corrupt easyCase saves from previous editions.</li>
+<li>Fixed a bug which caused the final screen to overlay the advanced arrow menu/message box.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is a limited version of the software, and not really fit for release, rather testing. Well, that's all folks. I'll be updating the software as it moves along, and adding test editions. For now, adieu.</p>
+<p><strong>When you've used the program sufficiently, please submit feedback via. the below URL.<br /><a href="https://goo.gl/forms/bgdQpwvzCyfZ4dj42" target="_blank" rel="noopener">Feedback!</a></strong></p>
+<p>&nbsp;</p>
+<h2>v0.2.1</h2>
+<p>This is the second pre-release build for easyCase Casemaker, and will be released as the beta version for public testing. Again, this will be a very unstable and limited version of the program, and downloads are again hosted through several mirrors, available through the developer. If any link goes down, please contact <a href="mailto:c272github@gmail.com">c272github@gmail.com</a>.&nbsp;</p>
+<p><strong>Patch Notes:</strong></p>
+<ul>
+<li>You can now&nbsp;<strong>create blank cases&nbsp;</strong>and&nbsp;<strong>exit&nbsp;</strong>via. the "File" menu. The "Close Window" button is now disabled temporarily, as currently, all threads must be manually terminated. Apologies.</li>
+<li><strong>Music&nbsp;</strong><strong>has been added&nbsp;</strong>to the GUI! This means that you can now load and stop custom MP3 tracks within easyCase.</li>
+<li>Fixed a bug which caused easyCase to crash after a load then a save, caused by an incorrectly placed variable change.</li>
+<li>Fixed a bug with setting the current character in the game causing the name box to be set automatically to Phoenix at certain times.</li>
+<li>Fixed a bug which allowed the user to accidentally corrupt their project file by including special characters in their project name.</li>
+<li>Fixed a bug pertaining to the in-app news screen, causing it to break and throw an exception.</li>
+<li>Fixed a bug which would cause users to stay in an infinite loop if they got the piece of evidence to present incorrect.</li>
+<li>Added&nbsp;<strong>loading cases&nbsp;</strong>into easyCase. You can now load cases that you have previously worked on by selecting their folder in the "Load" prompt menu.<br /><em>This feature will be unstable. Cases may corrupt/function incorrectly after loads at this time.</em></li>
+<li>Added "config.ezc" as a save file to the case directory. If you have an existing case from 0.2.0, it will carry over automatically.</li>
+<li>Added&nbsp;<strong>presenting evidence!&nbsp;</strong>Evidence can now be drawn from the user, when they're questioned on it. If the correct piece of evidence is selected, the trial continues. If an incorrect piece of evidence is selected, a user-defined set of instructions play.</li>
+<li>Fixed a bug which allowed users to bypass the evidence present window, thereby breaking the entire case past that point.</li>
+<li>Added&nbsp;<strong>Trucy Wright and Ema Skye (Young)&nbsp;</strong>as included characters for test purposes. You can now also hold conversations between two onscreen characters as a result.</li>
+<li>Fixed a bug which caused Trucy's name box to display a blank piece of text when used directly after evidence.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is an extremely limited version of the software, and not really fit for release, rather testing. Well, that's all folks. I'll be updating the software as it moves along, and adding test editions. For now, adieu.</p>
+<p><strong>When you've used the program sufficiently, please submit feedback via. the below URL.<br /><a href="https://goo.gl/forms/bgdQpwvzCyfZ4dj42" target="_blank" rel="noopener">Feedback!</a><br /><br /></strong></p>
+<h2>v0.2.0</h2>
+<p>Welcome to the first pre-release build of easyCase. This will be a very unstable and feature limited version of the program, however will improve over various patches. Downloads wil be hosted over several mirrors, however if for some reason the links are all unavailable, please contact <a href="mailto:c272github@gmail.com">c272github@gmail.com</a>.</p>
+<p><strong>Patch Notes:</strong></p>
+<ul>
+<li>Added "OBJECTION!", "TAKE THAT!" and "HOLD IT!".</li>
+<li>Added ability to use custom SFX.</li>
+<li>Added character and lawyer (Phoenix) dialogue.</li>
+<li>Title of window can now be changed.</li>
+<li>Implemented ability to change character poses. (Limited)</li>
+<li>You can now add characters into the scene.</li>
+<li>Added ability to pick on-screen character.</li>
+<li>Added a show/hide message box button.</li>
+<li>You can now change the background of the scene.</li>
+<li>Evidence can now be given, but it's extremely limited. (Limited)</li>
+<li>Profiles can also be added, but they're also extremely limited. (Limited)</li>
+<li>The title of the game and banner image on the start menu can<br />now be changed.</li>
+<li>Games created in easyCase now have a start menu.</li>
+<li>You can save easyCase cases into PWLib files.</li>
+<li>PWLib configuration is now automatically set up.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is an extremely limited version of the software, and not really fit for release, rather testing.</p>
+<p><em>Release builds of easyCase will not require a beta pass, and will be completely free.</em></p>
+</div>
+</body>
+</html>
