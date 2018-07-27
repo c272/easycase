@@ -10,9 +10,31 @@ margin-top: 20px;
 </style>
 </head>
 <body>
+<p>&nbsp;</p>
 <div class="borderleft">
 <h1><strong>easyCase Updates</strong></h1>
 <hr />
+<h2>v0.3.0</h2>
+<p>This is the sixth pre-release build for easyCase Casemaker, and completely changes most of the features of the editor, refactoring the GUI almost entirely. This may make previous documentation on the editor inaccurate, which is a shame, but it had to be done to improve the way the editor works and its functionality. Custom backgrounds are now FINALLY available! I've been putting them off for so long, and they're now in a live build. All dependencies have also been updated to their latest versions, and the website for easyCase has been changed from <a href="http://easycase.me">http://easycase.me</a>&nbsp;to <a href="http://c272.github.io/easycase">http://c272.github.io/easycase.</a>&nbsp;Without further ado, here's the patch notes for the third major iteration:</p>
+<ul>
+<li><strong>Migrated most of the UI</strong> into context elements instead of buttons.</li>
+<li>Added <strong>custom backgrounds</strong> as an available background option.</li>
+<li>Added the option to <strong>export the finished project</strong> to a portable SFX executable.</li>
+<li><strong>Changed the website for easyCase</strong> changelogs to the new GitHub repository.</li>
+<li><strong>Added a "Help" context menu</strong> for anyone unsure of what to do while using the program.</li>
+<li>Changed the "Pose Char" menu to not force you to pick the currently active character,<br />rather get it from system memory.</li>
+<li>Added a "currentChar.onScreen" system method for easier access.</li>
+<li>Ported over to the latest version of the SIOClientDotNet, EIOClientDotNet, Immutable and Newtonsoft packages.</li>
+<li>Fixed the "hasLoadedFile" check sometimes failing due to header errors.</li>
+<li>Swapped out LOTS of unoptimized full-string "else if" checks (THE HORROR) for switches and enums.</li>
+<li>Fixed the memory leak when presenting evidence for failure.</li>
+<li>Edited the "about" menu to contain the build version number rather than the live version number.</li>
+<li>Added the "makesfx.exe" dependency and license.</li>
+</ul>
+<p>You can download this version by contacting the developer on the Court Records forums, or via. Discord, at king d#4405. This is a beta release, and&nbsp;<em>not to be circulated around the community.&nbsp;</em>Doing so will remove you from the beta program.</p>
+<p>This is a limited version of the software, and not really fit for release, rather testing. Well, that's all folks. I'll be updating the software as it moves along, and adding test editions. For now, adieu.</p>
+<p><strong>When you've used the program sufficiently, please submit feedback via. the below URL.<br /><a href="https://goo.gl/forms/bgdQpwvzCyfZ4dj42" target="_blank" rel="noopener">Feedback!</a></strong></p>
+<p>&nbsp;</p>
 <h2>v0.2.4</h2>
 <p>This is the fifth pre-release build for easyCase Casemaker, and is more of a cosmetic and bugfixing update. Many of the bugs present in 0.2.3 were patched out, and a new update notification system has been rolled in alongside some compatibility DLLs for further down the line. The potential for a Linux port is also there, which is something i'm keeping in the back of my mind for now. The new easyCase website's also up at <a href="http://easycase.me,">http://easycase.me,</a>&nbsp;and the icon/logo has changed. Here's the full changelog:</p>
 <ul>
