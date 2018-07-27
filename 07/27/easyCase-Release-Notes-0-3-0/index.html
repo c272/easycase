@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  
+  <title>easyCase Release Notes (0.3.0) undefined easyCase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  
+  <meta name="keywords" content=easycase, phoenix wright, pwlib>
+  
+    <meta name="description" content="Welcome to the development archive for easyCase Casemaker.">
+  
+  
+  
+    <link rel="alternate" href="/easycase/atom.xml " title="easyCase" type="application/atom+xml">
+  
+
+  <link rel="stylesheet" href="/easycase/css/style.css">
+</head>
+  <body>
+    <div class="container">
+      <header class="header">
+  <div class="blog-title">
+    <a href="/easycase/" class="logo">easyCase</a>
+    <div class="subtitle"></div>
+  </div>
+  <nav class="navbar">
+    <ul class="menu">
+      
+        <li class="menu-item">
+          <a href="/easycase/" class="menu-item-link">Home</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/easycase/archives" class="menu-item-link">Archives</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/easycase/about" class="menu-item-link">About</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+<article class="post">
+  <div class="post-title">
+    <h1 class="article-title">easyCase Release Notes (0.3.0)</h1>
+  </div>
+   <div class="post-meta">
+    <span class="post-time">2018-07-27</span>
+  </div>
+  <div class="post-content">
+    <p>I’m back with another update, this time with major breaking changes to previous versions.<br>This is the sixth pre-release build for easyCase Casemaker, and completely changes most of the features of the editor, refactoring the GUI almost entirely. This may make previous documentation on the editor inaccurate, which is a shame, but it had to be done to improve the way the editor works and its functionality. Custom backgrounds are now FINALLY available! I’ve been putting them off for so long, and they’re now in a live build. All dependencies have also been updated to their latest versions, and the website for easyCase has been changed from <a href="http://easycase.me" target="_blank" rel="noopener">http://easycase.me</a> to <a href="http://c272.github.io/easycase">http://c272.github.io/easycase</a>. Without further ado, here’s the patch notes for the third major iteration:</p>
+<p><em><strong>Features:</strong></em></p>
+<ul>
+<li>Migrated most of the UI into context elements instead of buttons.</li>
+<li>Added custom backgrounds as an available background option.</li>
+<li>Added the option to export the finished project to a portable SFX executable.</li>
+<li>Changed the website for easyCase changelogs to the new GitHub repository.</li>
+<li>Added a “Help” context menu for anyone unsure of what to do while using the program.</li>
+</ul>
+<p><em><strong>Bugfixes:</strong></em></p>
+<ul>
+<li>Changed the “Pose Char” menu to not force you to pick the currently active character,<br>rather get it from system memory.</li>
+<li>Added a “currentChar.onScreen” system method for easier access.</li>
+<li>Ported over to the latest version of the SIOClientDotNet, EIOClientDotNet, Immutable and Newtonsoft packages.</li>
+<li>Fixed the “hasLoadedFile” check sometimes failing due to header errors.</li>
+<li>Swapped out LOTS of unoptimized full-string “else if” checks (THE HORROR) for switches and enums.</li>
+<li>Fixed the memory leak when presenting evidence for failure.</li>
+<li>Edited the “about” menu to contain the build version number rather than the live version number.</li>
+<li>Added the “makesfx.exe” dependency and license.</li>
+</ul>
+<p>Here’s a little showcase of the massive GUI change that’s here in this new update, in a comparison shot. Here’s the previous GUI:<br><img src="https://i.imgur.com/PuVlKc6.png" alt="img"><br>And here’s the new GUI:<br><img src="https://i.imgur.com/AQ8ftvV.png" alt="img"></p>
+<p>This refactors all of the GUI from buttons into context elements in a menu strip, as seen there. A look at the new menus below will display how the commands are now put into much more logical categories, like so:</p>
+<p><img src="https://i.imgur.com/xwTSvg9.png" alt="img"></p>
+<p>This will make them slightly slower to access, but it’ll make it very much easier to understand, in keeping with the name. Y’know, “easyCase” should be easy to use. There’s also now a custom background selector, which means you can finally load some sort of custom image into easyCase. Characters will be coming soon, but aren’t finalised yet.</p>
+<p><img src="https://i.imgur.com/NCrmTRX.png" alt="img"></p>
+<p>And now, arguably the star feature. You can now export your finished cases to a .exe file to share with your friends or strangers on the internet! This is done through the use of Self Extracting Executable Files, or SFEX files, so you must have enough space on your hard drive available to store the executable file <strong>twice.</strong> If you reach this boundary, which shouldn’t be too hard, you can then take and play your cases anywhere, portable. This also makes the speed for transferring the game across hard drives etc. much faster, as it’s only a single file, and allows for compression, which will reduce download sizes.</p>
+<p>All executable files currently have the “easyCase” icon, but I plan to make the icon and name of the file changeable in the future. They do currently require admin permissions, but this may also change. While I’m talking about this, there is a <strong>known bug</strong> with easyCase SFEX executables, being that they do not provide a loading bar when extracting as intended. I didn’t fix this, as I didn’t have time before my shipping deadline, but it will most likely be done in the next hotfix. Here’s a look at the method for creating the SFEX files in easyCase:</p>
+<p><img src="https://i.imgur.com/Kh4n2FE.png" alt="img"></p>
+<p>And here’s what the files look like after being exported:</p>
+<p><img src="https://i.imgur.com/IHnBQU8.png" alt="img"></p>
+<p>The “RAR” and “ZIP” options are not available yet, as again, I didn’t have time to implement them in time for this release specifically, but they’ll be available in 0.3.1, or 0.3.0a. Finally, there’s also now a “Help” tab in the context menu for tutorials and other resources about easyCase, when they become available. The documentation will be constantly updated by me and possibly others over the coming months. As this is a solo project, it might be slower to update than other docs.</p>
+<p>That’s all I’ve got for this release, along with the minor fixes mentioned in the changelog, so I’ll be going.<br>Thanks for following the development of easyCase.</p>
+
+  </div>
+  <div class="post-footer">
+    
+
+    <a href="#top" class="top">Back to Top</a>
+  </div>
+</article>
+<footer>
+  &copy; 2018
+  <span class="author">
+    C272
+  </span>
+</footer>
+    </div>
+  </body>
+</html>
