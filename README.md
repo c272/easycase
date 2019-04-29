@@ -1,8 +1,8 @@
-# easyCase Documentation
-*Documentation for the easyCase project, courtesy of KSATech and C272.*
+# easyCase 2
+*Documentation for the easyCase2 project, courtesy of C272.*
 
 ## Introduction
-Welcome to the PWLib and easyCase Casemaker documentation, written by C272. This respository aims to document all relevant commands within the PWLib project, and how easyCase can be used effectively alongside it, with GUI features and all. To navigate to a specific point in a project, take a look at the list found below.
+Welcome to the PWLib and easyCase 2 documentation, written by C272. This respository aims to document all relevant commands within the PWLib project, and how easyCase can be used effectively alongside it. To navigate to a specific point in a project, take a look at the list found below.
 
 ## Navigation
 ### easyCase
