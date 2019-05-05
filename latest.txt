@@ -1,1 +1,4 @@
-0.0.3|Some super important subject! Wahoo!
+0.0.4|CHANGELOG:
+- Added some super awesome stuff.
+- Changed some other super awesome stuff.
+- Removed some pesky mites.
