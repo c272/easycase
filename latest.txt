@@ -1,4 +1,4 @@
-0.0.4|CHANGELOG:
+0.0.3|CHANGELOG:
 - Added some super awesome stuff.
 - Changed some other super awesome stuff.
 - Removed some pesky mites.
