@@ -1,4 +1,4 @@
-0.0.4|CHANGELOG:\n
-- Added some super awesome stuff.\n
-- Changed some other super awesome stuff.\n
+0.0.4|CHANGELOG:
+- Added some super awesome stuff.
+- Changed some other super awesome stuff.
 - Removed some pesky mites.
