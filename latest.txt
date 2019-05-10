@@ -1,4 +1,9 @@
-0.0.3|CHANGELOG:
-- Added some super awesome stuff.
-- Changed some other super awesome stuff.
-- Removed some pesky mites.
+0.0.4|Thanks for using the easyCase beta. This is the first hotfix, and contains some vital changes.
+
+CHANGELOG:
+- Added a "Hide Name Box" option to remove the name box from screen.
+- Fixed bug where the "Jump To" action IDs would be limited to 100 on some menus.
+- Fixed the AIGE window being enlarged too far for the game.
+- Made sound effect pathing work properly, SFX should now play correctly.
+
+That's all for this update, a more detailed one coming for this week's weekly build next weekend.
