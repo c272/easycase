@@ -1,9 +1,14 @@
-0.0.4|Thanks for using the easyCase beta. This is the first hotfix, and contains some vital changes.
+0.0.5|Thanks for using the easyCase beta. Quick second hotfix to fix a few issues with PWLib characters and SFX.
 
 CHANGELOG:
-- Added a "Hide Name Box" option to remove the name box from screen.
-- Fixed bug where the "Jump To" action IDs would be limited to 100 on some menus.
-- Fixed the AIGE window being enlarged too far for the game.
-- Made sound effect pathing work properly, SFX should now play correctly.
+- Made the preview loader prefer the project directory's images over the source.
+- Fixed bug where the "SFX-" sounds would not play properly.
+- Added support for window size changes in the project editor.
+- Changed the compiler to support window size changes.
+- Updated the backend structure for projects.
+
+Also, quick note:
+DON'T ATTEMPT TO LOAD PREVIOUS PROJECTS IN THE NEW BUILD!
+This may cause errors.
 
 That's all for this update, a more detailed one coming for this week's weekly build next weekend.
