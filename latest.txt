@@ -1,14 +1,10 @@
-0.0.5|Thanks for using the easyCase beta. Quick second hotfix to fix a few issues with PWLib characters and SFX.
+0.0.6|Thanks for using the easyCase beta. This is the first "major" weekly build! Future builds will increase the minor version number (v0.x.0), but since this one wasn't that large (exam week), I figured I'd keep it the same. Still, there are some new features available!
 
 CHANGELOG:
-- Made the preview loader prefer the project directory's images over the source.
-- Fixed bug where the "SFX-" sounds would not play properly.
-- Added support for window size changes in the project editor.
-- Changed the compiler to support window size changes.
-- Updated the backend structure for projects.
+- Added CUSTOM FUNCTIONS, which are now available through the function editor.
+- Added custom SOUND/MUSIC SUPPORT to the editor.
+- Fixed lipsync breaking on some specific poses.
+- Updated the compiler structure to support a wider variety of scripts.
+- Many small reported bugfixes.
 
-Also, quick note:
-DON'T ATTEMPT TO LOAD PREVIOUS PROJECTS IN THE NEW BUILD!
-This may cause errors.
-
-That's all for this update, a more detailed one coming for this week's weekly build next weekend.
+That's all for this update, I'll be preparing a larger one for next week's release now that exams are over. Bye!
