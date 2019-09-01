@@ -1,4 +1,4 @@
-0.0.6|Thanks for using the easyCase beta. This is the first "major" weekly build! Future builds will increase the minor version number (v0.x.0), but since this one wasn't that large (exam week), I figured I'd keep it the same. Still, there are some new features available!
+0.3.7|Thanks for using the easyCase beta. This is the first "major" weekly build! Future builds will increase the minor version number (v0.x.0), but since this one wasn't that large (exam week), I figured I'd keep it the same. Still, there are some new features available!
 
 CHANGELOG:
 - Added CUSTOM FUNCTIONS, which are now available through the function editor.
